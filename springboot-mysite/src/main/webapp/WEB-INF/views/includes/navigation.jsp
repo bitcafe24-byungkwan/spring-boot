@@ -29,8 +29,10 @@
 				<li><a href="${pageContext.servletContext.contextPath }/guestbook">방명록</a></li>
 				<li><a href="${pageContext.servletContext.contextPath }/board">게시판</a></li>
 			</c:otherwise>
+			
 		</c:choose>
-
+		<li><a href="${pageContext.servletContext.contextPath }/guestbook/ajax">방명록AJAX</a></li>
+		<li><a href="${pageContext.servletContext.contextPath }/gallery">갤러리</a></li>
 
 	</ul>
 </div>

@@ -59,5 +59,11 @@ public class GuestbookController {
 		return "redirect:/guestbook";
 	}
 	
+	@RequestMapping(value = "/ajax", method = RequestMethod.GET)
+	public String ajaxForm(@ModelAttribute GuestbookVo vo) {
+
+		return "guestbook/index-ajax";
+	}
+	
 	
 }
